@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    font-family: Lato, sans-serif;
+    line-height: 1.7em;
+    background-color: black;
+        color: #fff;
+    
+}
+h1{
+    color: crimson;
+    font-weight: 900;
+}
+h2{
+ color: aqua   
+}
+p{
+    color: #fff;
+}
+
+.intro{
+    font-size: 1.5em;
+    width: 45%;
+    float: left;
+}
+.part2{
+    width: 45%
+        float: left;
+}
+
+a{
+/*    color: red;*/
+}
+a:hover { 
+    
+    color:cyan;
+    transition: color 1s ease-in-out; }
+
+nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
